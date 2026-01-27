@@ -190,7 +190,7 @@ INSERT INTO vendas (cpf, dt_mes, total_vendas) VALUES
 Tabela atualizada pela gestão: [equipes.xlsx](data/equipes.xlsx)
 ### 3.5. Pentaho
 Instruções de instalação:
-- Baixe o Pentaho 🔗 [pdi-ce-9.4.0.0-343](https://github.com/ambientelivre/legacy-pentaho-ce/releases/download/pdi-ce-9.4.0.0-343/pdi-ce-9.4.0.0-343.zip) e extraia em C:
+- Baixe o Pentaho 🔗 [pdi-ce-9.4.0.0-343](https://github.com/ambientelivre/legacy-pentaho-ce/releases/download/pdi-ce-9.4.0.0-343/pdi-ce-9.4.0.0-343.zip) e extraia em C:\
 - Baixe e instale o [java 8](https://www.java.com/pt-br/download/manual.jsp)
 - Crie a variável JAVA_HOME apontando para o diretório de instalação do java 8:
 ```C:\Program Files\Java\jre1.8.0_481```
