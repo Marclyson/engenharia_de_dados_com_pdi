@@ -198,7 +198,8 @@ Instruções de instalação:
 ### 4. Criação do Pipeline
 
 - Faça a conexão dos 3 bancos no pentaho (*use o conector MySQL para fechar a conexão com o banco MariaDB*)
-- Crie uma única tabela que retorne a competência, o nome do funcionário, a equipe e o valor total em vendas
+- Crie uma única tabela chamada "vendas_final" que retorne a competência, o nome do funcionário, a equipe e o valor total em vendas
+- Suba a tabela "vendas_final" no schema *public* do DW.
 
 ### 5. Projeto Final
 ![Fluxo Final](img/image.png)<br>
