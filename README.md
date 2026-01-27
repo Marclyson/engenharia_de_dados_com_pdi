@@ -201,8 +201,8 @@ Instruções de instalação:
 - Crie uma única tabela que retorne a competência, o nome do funcionário, a equipe e o valor total em vendas
 
 ### 5. Projeto Final
-![Fluxo Final](img/image.png)<br><br>
-- Fluxo Final: 
+![Fluxo Final](img/image.png)<br>
+###### Projeto Final: [Projeto Final (.ktr)](projeto_final\treinamento_eng_dados_pentaho.ktr)
 ---
 Marclyson Rodrigues<br>
 Engenheiro de Dados | Power BI | Oracle | Pentaho<br>
