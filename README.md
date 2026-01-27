@@ -186,7 +186,7 @@ INSERT INTO vendas (cpf, dt_mes, total_vendas) VALUES
 ('701.141.977-95','2025-12-01',94380.90);
 ```
 ### 3.4. Excel (Categorias dos Vendedores - Feito pela gestão)
-Tabela atualizada pela gestão: ````data\equipes.xlsx````
+Tabela atualizada pela gestão: [equipes.xlsx](data\equipes.xlsx)
 ### 3.5. Pentaho
 Instruções de instalação:
 - Baixe o Pentaho 🔗 [pdi-ce-9.4.0.0-343](https://github.com/ambientelivre/legacy-pentaho-ce/releases/download/pdi-ce-9.4.0.0-343/pdi-ce-9.4.0.0-343.zip) e extraia em C:
