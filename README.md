@@ -52,7 +52,8 @@ C --> D
 D --> E
 ```
 
-## 3. Preparando o Ambiente
+## 3. Preparando o Ambiente<br>
+*Atenção: Iremos utilizar o docker para a criação do nosso ambiente*
 ### 3.1. Postgresql (Nosso DW)
 ```docker run --name RHP_DW -p 5437:5432 -e POSTGRES_USER=rhp -e POSTGRES_PASSWORD=rhp1010 -e POSTGRES_DB=rhp_dw -d postgres:16.0```<br>
 *documentação: https://hub.docker.com/_/postgres*
