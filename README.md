@@ -195,7 +195,7 @@ Instruções de instalação:
 - Crie a variável JAVA_HOME apontando para o diretório de instalação do java 8:
 ```C:\Program Files\Java\jre1.8.0_481```
 - Copie o conector [mysql-connector-j-9.6.0.jar](jar_files/mysql-connector-j-9.6.0.jar) e cole na pasta ```C:\data-integration\lib```
-- Inicie o pentaho em ``data-integration\Spoon.bat``
+- Inicie o pentaho em ``C:\data-integration\Spoon.bat``
 
 ### 4. Criação do Pipeline
 
