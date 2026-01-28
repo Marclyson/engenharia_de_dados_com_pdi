@@ -194,7 +194,7 @@ Instruções de instalação:
 - Baixe e instale o [java 8](https://www.java.com/pt-br/download/manual.jsp)
 - Crie a variável JAVA_HOME apontando para o diretório de instalação do java 8:
 ```C:\Program Files\Java\jre1.8.0_481```
-- Copie o conector ``jar_files\mysql-connector-j-9.6.0.jar`` e cole na pasta ```C:\data-integration\lib```
+- Copie o conector [mysql-connector-j-9.6.0.jar](jar_files/mysql-connector-j-9.6.0.jar) e cole na pasta ```C:\data-integration\lib```
 
 ### 4. Criação do Pipeline
 
