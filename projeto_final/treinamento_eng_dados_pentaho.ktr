@@ -520,13 +520,13 @@
     </notepad>
   </notepads>
   <connection>
-    <name>rhp_dados_funcionarios</name>
+    <name>dome_dados_funcionarios</name>
     <server>localhost</server>
     <type>MYSQL</type>
     <access>Native</access>
-    <database>rhp_dados_funcionarios</database>
+    <database>dome_dados_funcionarios</database>
     <port>3306</port>
-    <username>rhp</username>
+    <username>dome</username>
     <password>Encrypted 2be98afc86ac19d96a51cad75da9dbd8b</password>
     <servername/>
     <data_tablespace/>
@@ -583,13 +583,13 @@
     </attributes>
   </connection>
   <connection>
-    <name>rhp_dados_vendas</name>
+    <name>dome_dados_vendas</name>
     <server>localhost</server>
     <type>MYSQL</type>
     <access>Native</access>
-    <database>rhp_dados_vendas</database>
+    <database>dome_dados_vendas</database>
     <port>3307</port>
-    <username>rhp</username>
+    <username>dome</username>
     <password>Encrypted 2be98afc86ac19d96a51cad75da9dbd88</password>
     <servername/>
     <data_tablespace/>
@@ -646,14 +646,14 @@
     </attributes>
   </connection>
   <connection>
-    <name>rhp_dw</name>
+    <name>dome_dw</name>
     <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>rhp_dw</database>
+    <database>dome_dw</database>
     <port>5437</port>
-    <username>rhp</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb0ba6608fc2fe8a</password>
+    <username>dome</username>
+    <password>Encrypted 2be98afc86aa7f2e4af16a3758fc2fe8a</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -769,7 +769,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>rhp_dados_funcionarios</connection>
+    <connection>dome_dados_funcionarios</connection>
     <sql>SELECT * FROM funcionarios</sql>
     <limit>0</limit>
     <lookup/>
@@ -873,7 +873,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>rhp_dados_vendas</connection>
+    <connection>dome_dados_vendas</connection>
     <sql>SELECT * FROM vendas
 </sql>
     <limit>0</limit>
@@ -978,7 +978,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>rhp_dw</connection>
+    <connection>dome_dw</connection>
     <schema>public</schema>
     <table>vendas_final</table>
     <commit>1000</commit>

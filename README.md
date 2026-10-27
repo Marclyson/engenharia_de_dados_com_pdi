@@ -55,11 +55,11 @@ D --> E
 ## 3. Preparando o Ambiente<br>
 *Atenção: Iremos utilizar o docker para a criação do nosso ambiente*
 ### 3.1. Postgresql (Nosso DW)
-```docker run --name RHP_DW -p 5437:5432 -e POSTGRES_USER=rhp -e POSTGRES_PASSWORD=rhp1010 -e POSTGRES_DB=rhp_dw -d postgres:16.0```<br>
+```docker run --name DOME_DW -p 5437:5432 -e POSTGRES_USER=dome -e POSTGRES_PASSWORD=dome1010 -e POSTGRES_DB=dome_dw -d postgres:16.0```<br>
 *documentação: https://hub.docker.com/_/postgres*
 
 ### 3.2. Mysql (Fornecedor 1 - Sistema de Gestão de Pessoas)
-```docker run --name DB_FORNECEDOR_1 -p 3306:3306 -e MYSQL_USER=rhp -e MYSQL_PASSWORD=fornecedor1 -e MYSQL_DATABASE=rhp_dados_funcionarios -e MYSQL_RANDOM_ROOT_PASSWORD=yes -d mysql:9.5.0```<br>
+```docker run --name DB_FORNECEDOR_1 -p 3306:3306 -e MYSQL_USER=dome -e MYSQL_PASSWORD=fornecedor1 -e MYSQL_DATABASE=dome_dados_funcionarios -e MYSQL_RANDOM_ROOT_PASSWORD=yes -d mysql:9.5.0```<br>
 ***para conectar, modifique: allowPublicKeyRetrieval=TRUE***<br>
 *documentação: https://hub.docker.com/_/mysql*
 
@@ -82,7 +82,7 @@ INSERT INTO funcionarios (id, funcionario, documento) VALUES
 (7, 'Edward Nigma', '701.141.977-95');
 ```
 ### 3.3. MariaDB (Fornecedor 2 - Sistema de Vendas)
-```docker run --detach --name DB_FORNECEDOR_2 -p 3307:3306 -e MARIADB_USER=rhp -e MARIADB_PASSWORD=fornecedor2 -e MARIADB_DATABASE=rhp_dados_vendas -e MARIADB_ROOT_PASSWORD=my-secret-pw mariadb:latest```<br>
+```docker run --detach --name DB_FORNECEDOR_2 -p 3307:3306 -e MARIADB_USER=dome -e MARIADB_PASSWORD=fornecedor2 -e MARIADB_DATABASE=dome_dados_vendas -e MARIADB_ROOT_PASSWORD=my-secret-pw mariadb:latest```<br>
 *documentação: https://hub.docker.com/_/mariadb*
 #### Criando e Inserindo Dados na Tabela "vendas"
 ```
